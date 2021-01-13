@@ -1,0 +1,40 @@
+div {
+    text-align: right;
+    clear: both;
+}
+
+form {
+    width: 40%;
+}
+
+input[name=nimi] {
+    float: right;
+}
+
+header {
+    float: left
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#joukkuelista {
+    text-align: left;
+}
+
+@media all and (max-width: 600px) {
+    div {
+        float:left;
+        text-align: left;
+        padding-top: 10px;
+    }
+}
+
+@media all and (max-width: 300px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: visible;
+    }
+}
